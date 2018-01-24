@@ -4,7 +4,7 @@ This file contains the process followed in creating the `tidy data set`.
 The information on the variables are found in the Codebook file.
 
 ## R Script Explained
-```
+
 ### Part 1
 Downloads and unzips the datfile from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip. If the data is already in the local computer we need only specify the directory where it is located.
 
@@ -21,7 +21,7 @@ Locates the train and test data set (See Codebook). Only the measures specified 
 Prepares the final data set in Part 4 to create the `tidy.txt` file. Adjustments include convertion of variables "subject" and "activities" as factor variables. This is necessary to later melt the data by subject and activity. The final data is reduced to 180 observations by taking the mean for each type of activity.
 
 ### Part 6
-Writes a new data set named "tidy.txt".
-```
+Writes a new data set named `tidy.txt`.
+
 
 
