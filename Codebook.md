@@ -9,7 +9,7 @@ The experiments have been carried out with a group of 30 volunteers within an ag
 ## Variables in the Datafile
 To save space in writing the variable names, the terms of measurements are abbreviated/shortened based on the ff: t(time-domain), f(frequency-domain), Acc(Accelerometer), Gyro(Gyroscope), Jerk(derivation of accelaration in time), Mag(Magnittude), Freq(Frequency),StdDev(Standard Deviation), XYZ refers to X,Y, and Z directions. 
 * subject - identifier of the subject in the experiment
-* activity - type of activity performed ((WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)
+* activity - type of activity performed '(WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING)'
 * tBodyAccMeanX
 * tBodyAccMeanY
 * tBodyAccMeanZ
